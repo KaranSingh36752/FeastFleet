@@ -1,0 +1,22 @@
+import { EMPTY_CART } from '../config'
+
+import React from 'react'
+
+const EmptyCart = () => {
+  return (
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center h-full animate-fadeIn">
+    <div className="w-1/2 md:w-1/5 flex flex-col items-center">
+      <p className="text-gray-600 text-2xl font-bold">Cart Empty</p>
+      <img src={EMPTY_CART} alt="Empty Cart" className="h-auto my-8" />
+      <p className="text-gray-600 font-semibold text-xl">
+        Your cart is empty.
+      </p>
+      <p className="text-gray-600 text-lg text-center">
+        Add something from the menu.
+      </p>
+    </div>
+  </div>
+  )
+}
+
+export default EmptyCart
