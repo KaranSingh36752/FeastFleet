@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { json, useParams } from "react-router-dom";
 import { IMG_CON_URL } from "../config";
-import Shimmer from "./shimmer";
+import Shimmer from "./Shimmer";
 import useRestaurant from "../utils/useRestaurant";
 import RestaurantCategory from "./RestaurantCategory";
 

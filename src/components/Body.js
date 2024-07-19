@@ -1,7 +1,7 @@
 import { API_URL, resturantlist, swiggy_api_URL } from "../config";
 import { RestaurantCard } from "./RestaurantCard";
 import { useState, useEffect, useContext } from "react";
-import Shimmer from "./shimmer";
+// import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { filterData } from "../utils/helper";
 import useOnline from "../utils/useOnline";
