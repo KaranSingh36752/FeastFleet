@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import dropDown from "../utils/images/dropdown.png";
 import dropUp from "../utils/images/dropup.png";
-import ItemList from "./Itemlist";
+import ItemList from "./ItemList";
 
 const RestaurantCategory =({data})=> {
    const { title, itemCards } = data;
