@@ -1,7 +1,6 @@
 {
     "name": "app",
     "version": "1.0.0",
-    "main": "index.js",
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "scripts": {
         "start": "parcel index.html",
