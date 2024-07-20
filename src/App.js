@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Profile from "./components/ProfileClass";
-// import Shimmer from "./components/shimmer";
+import Shimmer from "./components/Shimmer";
 import UserContext from "./utils/UserContext";
 //import Instamart from "./components/instamart";
 import { Provider } from "react-redux";
